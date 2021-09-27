@@ -20,25 +20,25 @@
 					<div class="name-details">
 						<div class="field input">
 							<label>First Name</label>
-							<input type="text" name="fname" placeholder="First name" required>
+							<input type="text" name="fname" placeholder="First name">
 						</div>
 						<div class="field input">
 							<label>Last Name</label>
-							<input type="text" name="lname" placeholder="Last name" required>
+							<input type="text" name="lname" placeholder="Last name">
 						</div>
 					</div>
 					<div class="field input">
 						<label>Email Address</label>
-						<input type="text" name="email" placeholder="Enter your email" required>
+						<input type="text" name="email" placeholder="Enter your email">
 					</div>
 					<div class="field input">
 						<label>Password</label>
-						<input type="password" name="password" placeholder="Enter new password" required>
+						<input type="password" name="password" placeholder="Enter new password">
 						<i class="fas fa-eye"></i>
 					</div>
 					<div class="field image">
 						<label>Select Image</label>
-						<input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
+						<input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg">
 					</div>
 					<div class="field button">
 						<input type="submit" name="submit" value="Continue to Chat">
@@ -49,6 +49,7 @@
 		</div>
 
 		<script src="js/pass_show_hide.js"></script>
+		<script src="js/signup.js"></script>
 	</body>
 
 </html>
